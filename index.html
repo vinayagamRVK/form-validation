@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <form action="" atucomplete="on">
+        <!-- Flex container -->
+        <div class="field-container">
+            <!-- Flex items -->
+            <div class="heading">
+                <h1>Registration Form</h1>
+            </div><hr>
+
+            <div class="input-elements">
+
+                <div class="name">
+                    <label for="name">Name:</label><br>
+                    <input type="text" placeholder="Enter Name" id="name" required>
+                    <p id="nameempty"></p>
+                </div>
+
+                <div class="email">
+                    <label for="email">Email:</label><br>
+                    <input type="email" placeholder="Enter Email" id="email" required>
+                    <p id="emailempty"></p>
+                </div>
+
+                <div class="password">
+                    <label for="password">Password:</label><br>
+                    <input type="password" placeholder="Password" id="password" required>
+                    <p id="passempty"></p>
+                </div>
+
+                <div class="submit">
+                    <button id="submitButton">Submit</button>
+                </div>
+            </div>
+
+
+        </div>
+    </form>
+
+
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
